@@ -1,4 +1,4 @@
-import {action, autorun, observable, useStrict} from 'mobx';
+import {autorun, observable}  from 'mobx';
 
 let CounterStore = observable({
   counter: 0,
