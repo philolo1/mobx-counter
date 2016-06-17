@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mobx Demo</title>
+  <meta name="description" content="MobX + React contact list demo">
+  <style type="text/css" media="screen">
+    * {
+      font-size: 20px;
+    }
+
+    button:focus {outline:0;}
+
+    html {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      font-size: 13px;
+      padding: 20px;
+    }
+
+
+  </style>
+<body>
+
+  <div>
+    <p> Counter : <span id='counter'></span></p>
+    <button onclick='plusClick();'> + </button>
+    <button onClick='minusClick();'> - </button>
+  </div>
+
+  <div id="app"></div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
